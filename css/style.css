@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-html,body,#container{
+html,body{
 	height: 100%;
 
 }
 
-body #container{
+/*body #container{
 	height: auto;
 	min-height: 100%;
-}
+}*/
 
 #content{
 	padding-bottom: 5em;	
