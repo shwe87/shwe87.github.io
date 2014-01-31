@@ -11,7 +11,11 @@ body #container{
 	margin-left: auto;
 }
 
+
 #content{
+	width: 85%;
+  	margin-left: auto ;
+  	margin-right: auto ;
 	padding-bottom: 5em;	
 
 }
@@ -28,7 +32,7 @@ body{
 	font-size: x-small;
 }
 
-div.logo, div.brand, #content{
+div.logo, div.brand{
 	display:block;
 	/*margin-top: 60px;*/
 	margin-bottom: 50px;
