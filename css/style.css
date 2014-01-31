@@ -28,7 +28,7 @@ body{
 	font-size: x-small;
 }
 
-div.logo{
+div.logo, div.brand{
 	display:block;
 	/*margin-top: 60px;*/
 	margin-bottom: 50px;
@@ -37,11 +37,13 @@ div.logo{
 	text-align:center;
 }
 
+div.brand{
+	margin-top: 60px;
+}
+
 #footer{
 	clear:both;
 	position:relative;
-	margin-left: auto;
-	margin-right: auto;
 	z-index:10
 	height:5em;
 	margin-top: -3em;
