@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shweta{% if page.title }%} - {{page.title}}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      html,body{
+	height: 100%;
+
+	}
+
+	body{
+		background:#E4DBBF;			/*Yellowish background*/
+	   	background-repeat: no-repeat;
+		background-attachment: fixed;
+	    font-family: Palatino,Georgia,Times;
+	    color: #383127;
+	}
+    </style>
+   
+    <!-- Le fav and touch icons >
+    <link rel="shortcut icon" href="assets/ico/favicon.ico"-->
+  
+  </head>
+  <body>
+    <!--<a href="https://github.com/driftyco/jetstrap-docs"><img style="position: absolute; z-index: 10000; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>-->
+   {{content}}
+  </body>
+</html>
